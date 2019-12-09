@@ -1,0 +1,28 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "iot-building-ts-prod-20191206131151-authRole",
+            "UnauthRoleArn": "arn:aws:iam::403540845132:role/iot-building-ts-prod-20191206131151-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::403540845132:role/iot-building-ts-prod-20191206131151-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "iot-building-ts-prod-20191206131151-deployment",
+            "UnauthRoleName": "iot-building-ts-prod-20191206131151-unauthRole",
+            "StackName": "iot-building-ts-prod-20191206131151",
+            "StackId": "arn:aws:cloudformation:eu-central-1:403540845132:stack/iot-building-ts-prod-20191206131151/344fb770-1819-11ea-bd65-06b323d6b6e2"
+        },
+        "categories": {
+            "function": {
+                "iotbuildingts73a2244dCustomMessage": {
+                    "REDIRECTURL": "http://localhost:3000/",
+                    "EMAILSUBJECT": "Account confirmation",
+                    "EMAILMESSAGE": "Click the link to confirm"
+                }
+            },
+            "auth": {
+                "iotbuildingts73a2244d": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"475794924775-54hhm441qqvrb5f700m24ji7ltqfrm3d.apps.googleusercontent.com\",\"client_secret\":\"ATtvIK4X03PZddQY5OMJVlVz\"}]"
+                }
+            }
+        }
+    }
+}

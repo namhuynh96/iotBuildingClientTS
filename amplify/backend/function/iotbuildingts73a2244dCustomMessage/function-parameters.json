@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "iotbuildingts73a2244d",
+    "functionName": "iotbuildingts73a2244dCustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "iotbuildingts73a2244dCustomMessage",
+    "skipEdit": true,
+    "resourceName": "iotbuildingts73a2244dCustomMessage"
+}
